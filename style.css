@@ -72,29 +72,11 @@ body {
 }
 .titulo {
     position: absolute;
-    top: 150px; /* ajusta según lo necesites */
+    top: 100px; /* ajusta según lo necesites */
     font-size: 30px;
     color: white;
     font-family: "Poppins", serif;
     text-align: center;
 }
-/* Fotos alrededor del corazón */
-.foto {
-    width: 200px;
-    height: 200px;
-    border-radius: 15px;
-    position: absolute;
-    animation: fotoAnim 6s ease-in-out infinite;
-}
-.abajo { bottom: 5%; left: 45%; transform: translateX(-50%); }
-.izquierda { top: 50%; left: 25%; transform: translateY(-50%); }
-.derecha { top: 50%; right: 25%; transform: translateY(-50%); }
 
-@keyframes fotoAnim {
-    0% { transform: scale(1) rotate(0deg); }
-    25% { transform: scale(1.05) rotate(3deg); }
-    50% { transform: scale(1.1) rotate(-3deg); }
-    75% { transform: scale(1.05) rotate(3deg); }
-    100% { transform: scale(1) rotate(0deg); }
-}
 
